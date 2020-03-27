@@ -13,12 +13,12 @@
     "react": "^16"
   },
   "devDependencies": {
+    "klap": "^4.2.3",
     "lodash": "^4.17.15",
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-externals": "^0.3.3-pre.20200323.2",
     "react": "^16.13"
   },
   "scripts": {
-    "build": "parcel build src/index.js"
+    "build": "klap build",
+    "prepublish": "npm run build"
   }
 }
