@@ -1,0 +1,24 @@
+{
+  "name": "@humanmade/react-slot-fill",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "repository": "https://github.com/humanmade/react-slot-fill",
+  "author": "Human Made",
+  "license": "GPL-2.0-or-later",
+  "dependencies": {
+    "@wordpress/is-shallow-equal": "^1.8.0"
+  },
+  "peerDependencies": {
+    "lodash": "^4",
+    "react": "^16"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.15",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-externals": "^0.3.3-pre.20200323.2",
+    "react": "^16.13"
+  },
+  "scripts": {
+    "build": "parcel build src/index.js"
+  }
+}
