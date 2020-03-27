@@ -1,6 +1,6 @@
 {
   "name": "@humanmade/react-slot-fill",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/index.js",
   "repository": "https://github.com/humanmade/react-slot-fill",
   "author": "Human Made",
