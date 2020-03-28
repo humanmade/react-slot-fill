@@ -1,12 +1,8 @@
 /**
  * External dependencies
  */
-import { isFunction } from 'lodash';
-
-/**
- * WordPress dependencies
- */
 import React, { createPortal, useLayoutEffect, useRef } from 'react';
+import { isFunction } from 'lodash';
 
 /**
  * Internal dependencies

@@ -1,5 +1,5 @@
 /**
- * WordPress dependencies
+ * External dependencies
  */
 import React, { useRef, useLayoutEffect, useContext } from 'react';
 import isShallowEqual from '@wordpress/is-shallow-equal';

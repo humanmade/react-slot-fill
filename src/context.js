@@ -1,11 +1,6 @@
 /**
  * External dependencies
  */
-import { sortBy, forEach, without } from 'lodash';
-
-/**
- * WordPress dependencies
- */
 import React, {
 	Component,
 	createContext,
@@ -13,6 +8,7 @@ import React, {
 	useState,
 	useEffect,
 } from 'react';
+import { sortBy, forEach, without } from 'lodash';
 
 /**
  * Internal dependencies

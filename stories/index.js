@@ -1,12 +1,8 @@
 /**
  * External dependencies
  */
+import { createContext, useContext  } from 'react';
 import { text, number } from '@storybook/addon-knobs';
-
-/**
- * WordPress dependencies
- */
-import { createContext, useContext } from '@wordpress/element';
 
 /**
  * Internal dependencies
