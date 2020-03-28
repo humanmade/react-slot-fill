@@ -2,6 +2,9 @@
   "name": "@humanmade/react-slot-fill",
   "version": "0.0.2",
   "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
   "repository": "https://github.com/humanmade/react-slot-fill",
   "author": "Human Made",
   "license": "GPL-2.0-or-later",
