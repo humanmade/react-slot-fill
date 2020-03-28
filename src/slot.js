@@ -1,22 +1,14 @@
 /**
  * External dependencies
  */
+import React, { Children, Component, cloneElement, } from 'react';
 import { isFunction, isString, map, negate } from 'lodash';
-
-/**
- * WordPress dependencies
- */
-import React, {
-	Children,
-	Component,
-	cloneElement,
-} from 'react';
-import { isEmptyElement } from './is-empty-element';
 
 /**
  * Internal dependencies
  */
 import { Consumer } from './context';
+import { isEmptyElement } from './is-empty-element';
 
 class SlotComponent extends Component {
 	constructor() {

@@ -1,6 +1,7 @@
 /**
  * External dependencies
  */
+import React, { Component } from 'react';
 import { isEmpty } from 'lodash';
 import ReactTestRenderer from 'react-test-renderer';
 
@@ -8,11 +9,6 @@ import ReactTestRenderer from 'react-test-renderer';
  * Internal dependencies
  */
 import { Slot, Fill, Provider } from '../';
-
-/**
- * WordPress dependencies
- */
-import { Component } from '@wordpress/element';
 
 class Filler extends Component {
 	constructor() {

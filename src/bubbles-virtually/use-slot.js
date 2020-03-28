@@ -1,5 +1,5 @@
 /**
- * WordPress dependencies
+ * External dependencies
  */
 import { useCallback, useContext, useMemo } from 'react';
 
